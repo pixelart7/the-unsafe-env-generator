@@ -23,6 +23,7 @@ import { generate } from './env-generator';
 const config = ref('');
 const display = ref([]);
 
+/* @ts-ignore */
 function submit() {
   display.value = generate(config.value);
 }

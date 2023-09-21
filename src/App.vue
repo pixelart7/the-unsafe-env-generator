@@ -13,7 +13,7 @@
         .grid.grid-cols-2.gap-3.mt-3
           .border.rounded.p-2.flex-1(v-for="(app, appName) in track")
             h3.text-base.font-bold.mb-2 {{ appName }}
-            textarea.w-full.text-xs.border.rounded.p-1(:value="app" rows=25) 
+            textarea.w-full.text-xs.border.rounded.p-1.font-mono(:value="app" rows=25) 
 </template>
 
 <script lang="ts" setup>

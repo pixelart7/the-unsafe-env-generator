@@ -25,7 +25,8 @@ const display = ref([]);
 
 /* @ts-ignore */
 function submit() {
-  display.value = generate(config.value);
+  /* @ts-ignore */
+  display.value = generate(config.value); /* @ts-ignore */
 }
 </script>
 
